@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 430px){
+
+    .botao{
+        padding: 12px 24px;
+    }
+
+    .input-naomostrar{
+        display: none;
+    }
+
+    .cabecalho-logo{
+        margin-right: 0.5rem;
+    }
+
+    .cabecalho-barra-pesquisa{
+        background: none;
+        width: auto;
+    }
+
+    .chamada {
+        height: auto;
+        padding: 32px;
+    }
+
+    .chamada-titulo{
+        font-size: 22px;
+        margin-top: 6rem;
+    }
+
+    .chamada-texto{
+        font-size: 14px;
+        font-weight: normal;
+    }
+
+    .esconder-card-celular{
+        display: none;
+    }
+
+    .contato{
+        margin-top: 1rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .contato-conteudo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contato-direita{
+        display: flex;
+        flex-direction: column;
+       align-items: center;
+    }
+
+    .contato-sobre{
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .contato-formulario{
+       max-width: 100%;
+       padding-top: 24px;
+    }
+
+    .input-padrao{
+        margin-bottom: 10px;
+    }
+}

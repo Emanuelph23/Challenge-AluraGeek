@@ -1,0 +1,269 @@
+@charset "UTF-8";
+
+:root{
+
+    --Azul-500:#2A7AE4;
+    --Cinza-claro:#F5F5F5;
+    --Cinza-medio:#A2A2A2;
+    --branco:#ffffff;
+    --Cinza-escuro:#464646;
+    --Azul-claro:#EAF2FD;
+
+    --montserrat: 'Montserrat', sans-serif;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: var(--Cinza-escuro);
+}
+
+.container{
+    padding-left: 6%;
+    padding-right: 6%;
+    max-width: 1440px;
+    width: auto;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.nav-pesquisa{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho-logo{
+    margin-right: 2rem;
+}
+
+.cabecalho-barra-pesquisa{
+    display: flex;
+    align-items: center;
+    width: 260px;
+    justify-content: space-between;
+    background: var(--Cinza-claro);
+    border-radius: 20px;
+    padding: 4px 16px;
+    box-sizing: border-box;
+}
+
+.icone-cabecalho-pesquisa{
+    max-width: 24px;
+
+}
+
+.search-input{
+    border: none;
+    background: var(--Cinza-claro);
+}
+
+.botao{
+    border: 1px solid var(--Azul-500) ;
+    color: var(--Azul-500);
+    max-width: 42px;
+    width: 100%;
+    padding: 12px 42px;
+    text-align: center;
+}
+
+/*-----Chamada Main------*/
+
+.chamada{
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%),url(../img/banner-image.png);
+    background-size: cover;
+    color: var(--branco);
+    height: auto;
+    text-align: left;
+    padding-bottom: 32px;
+}
+
+.chamada-titulo{
+    font-family: var(--montserrat);
+    font-weight: 700;
+    font-size: 3rem;
+    margin-top: 10rem;
+    margin-bottom: 1rem;
+}
+
+.chamada-texto{
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 1rem;
+}
+
+.chamada-botao{
+    background: var(--Azul-500);
+    color: var(--branco);
+    max-width: 100px;
+    padding: 16px;
+}
+
+/*----Secção Produtos------*/
+
+.titulo-card-produtos{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+    box-sizing: border-box;
+}
+
+.produtos-titulo{
+    font-family: var(--montserrat);
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--Cinza-escuro);
+}
+
+.produtos-link-titulo{
+    font-size: 1rem;
+    color: var(--Azul-500);
+    margin-right: 8px;
+}
+
+.produtos-botao{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.produtos-box{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.produtos-item{
+    max-width: 174px;
+}
+
+.produtos-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.produtos-imagens-card{
+    width: 176px;
+    height: 174px;
+    box-shadow: 1px 1px 2px 0px var(--Cinza-escuro);
+}
+
+.produtos-descricao{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 1rem;
+}
+
+.preco{
+    font-weight: 700;
+}
+
+
+.produtos-link-card{
+    color: var(--Azul-500);
+    font-weight: 700;
+}
+
+/*-----Secção Contato------*/
+
+.contato{
+    background: var(--Azul-claro);
+    margin-top: 4rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.contato-conteudo{
+    display: flex;
+    flex-direction: row;
+    align-items:top;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.contato-sobre{
+    display: flex;
+    flex-direction: column;
+    line-height: 2.35;
+    font-size: 19px;
+    color: var(--Cinza-escuro);
+    font-weight: 500;
+}
+
+.contato-formulario{
+    display: flex;
+    flex-direction: column;
+    padding-top: 12px;
+}
+
+.contato-direita{
+    display: flex;
+    width: 45%;
+    justify-content: space-between;
+}
+
+.input-titulo{
+    font-weight: 700;
+    color: var(--Cinza-escuro);
+}
+
+.input-descricao{
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--Cinza-medio);
+    background: var(--branco);
+    margin-top: 8px;
+    padding-top: 4px;
+    padding-left: 26px;
+}
+
+.input-padrao{
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    border: none;
+}
+
+.formulario-botao{
+    background: var(--Azul-500);
+    color: var(--branco);
+    font-weight: 400;
+    font-size: 16px;
+    border: none;
+    width: 33%;
+    padding: 12px 16px 12px 16px;
+    cursor: pointer;
+}
+
+/*------Rodapé--------*/
+
+.rodape{
+    padding: 32px;
+}
+
+.rodape-conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rodape-titulo{
+    font-size: 16px;
+    color: var(--Cinza-escuro);
+    line-height: 19px;
+}
+
+
+
